@@ -1704,3 +1704,6 @@ transform: scale(-1, -1);
 .row_steps .slick-slide {
 	height: inherit !important;
 }
+.menu-mobile {
+	display: none;
+}
