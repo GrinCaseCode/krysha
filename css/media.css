@@ -1,0 +1,365 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1600px) {
+	.menu {
+		font-size: 16px;
+	}
+	.mortgage-block ul, .item-service__list {
+		font-size: 18px;
+	}
+	.item-service__title {
+		font-size: 22px;
+	}
+	.row_catalog > div {
+		padding: 0 15px;
+	}
+	.row_catalog {
+		margin: 0 -15px;
+	}
+	.title-middle {
+		font-size: 36px;
+		padding-bottom: 20px;
+	}
+	.descr-big {
+		font-size: 22px;
+	}
+	.consult-block .descr-big {
+		max-width: 580px;
+	}
+	.consult-block {
+		padding: 55px 40px;
+	}
+	.item-step {
+		font-size: 17px;
+		padding: 34px 30px;
+		padding-right: 33px;
+		padding-bottom: 30px;
+	}
+	.row_steps > div {
+		padding: 0 20px;
+	}
+	.row_steps {
+		margin: 0 -20px;
+	}
+	.title-section {
+		font-size: 42px;
+		line-height: 52px;
+	}
+	.steps .title-section {
+		max-width: 639px;
+	}
+	.mortgage .title-section {
+		line-height: 54px;
+	}
+	.slider-catalog .item-catalog {
+		margin: 0 15px;
+	}
+	.slider-catalog {
+		margin: 0 -15px;
+	}
+	.slider-catalog > .slick-prev {
+		left: -24px;
+	}
+	.slider-catalog > .slick-next {
+		right: -24px;
+	}
+	.title-small {
+		font-size: 26px;
+	}
+	.slider-reviews .slick-slide {
+		padding: 20px 15px;
+	}
+	.slider-reviews {
+		margin: 0 -15px;
+		margin-top: 40px;
+	}
+	.arrows-bottom .slick-arrow {
+		right: 15px;
+	}
+	.arrows-bottom .slick-prev {
+		right: 58px;
+	}
+	.row_insta {
+		margin: 0 -15px;
+	}
+	.footer .social-links {
+		margin-right: -25px;
+	}
+	.title-big {
+		font-size: 50px;
+		line-height: 60px;
+	}
+	.billbord .title-big {
+		padding-bottom: 50px;
+	}
+	.list-main li {
+		margin-bottom: 25px;
+	}
+}
+@media only screen and (max-width : 1400px) {
+	.phones-item {
+		font-size: 16px;
+	}
+	.menu {
+		font-size: 15px;
+	}
+	.title-big {
+		font-size: 46px;
+		line-height: 55px;
+	}
+	.item-service__content {
+		padding: 20px 15px;
+	}
+	.item-service__list li {
+		margin-top: 23px;
+	}
+	.mortgage-block ul, .item-service__list {
+		font-size: 16px;
+	}
+	.item-service__title {
+		font-size: 20px;
+	}
+	.block-filter {
+		padding: 28px 15px;
+		padding-bottom: 30px;
+	}
+	.block-filter .range-catalog {
+		width: 234px;
+	}
+	.buttons-filter .btn-clear {
+		margin-left: 20px;
+	}
+	.irs--flat .irs-from, .irs--flat .irs-to, .irs--flat .irs-single {
+		font-size: 14px;
+	}
+	.item-catalog__title {
+		font-size: 18px;
+	}
+	.item-catalog__price {
+		font-size: 17px;
+	}
+	.item-catalog__price-per {
+		font-size: 16px;
+	}
+	.item-catalog__price-per sup {
+		font-size: 9px;
+	}
+	.catalog-wrap {
+		padding: 20px;
+	}
+	.item-catalog__image {
+		height: 200px;
+	}
+	.row_catalog > div {
+		margin-bottom: 20px;
+	}
+	.form-line .item-form {
+		width: 265px;
+	}
+	.consult-block__left {
+		max-width: 500px;
+	}
+	.block-form {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.block-form .btn-main {
+		font-size: 16px;
+		height: 60px;
+	}
+	.help .list-main li {
+		padding-left: 63px;
+		padding-right: 40px;
+	}
+	.list-main li {
+		font-size: 18px;
+	}
+	.title-section {
+		font-size: 37px;
+		line-height: 48px;
+		padding-bottom: 40px;
+	}
+	.steps .title-section {
+		max-width: 557px;
+	}
+	.mortgage .title-section {
+		line-height: 45px;
+	}
+	.descr-big {
+		font-size: 20px;
+	}
+	.item-min {
+		height: 220px;
+	}
+	.row_min {
+		margin-bottom: 30px;
+	}
+	.slider-catalog > .slick-prev {
+		left: -4px;
+	}
+	.slider-catalog > .slick-next {
+		right: -4px;
+	}
+	.item-review__title {
+		font-size: 21px;
+	}
+	.item-review {
+		padding: 30px 20px;
+	}
+	body {
+		font-size: 14px;
+		line-height: 23px;
+	}
+	.title-min {
+		font-size: 18px;
+		padding-bottom: 15px;
+	}
+	.footer .social-links {
+		margin-right: -10px;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.header__wrap .phones-item i {
+		display: none;
+	}
+	.header__wrap .phones-item {
+		padding-left: 0;
+	}
+	.header {
+		font-size: 13px;
+	}
+	.logo-descr {
+		max-width: 143px;
+		margin-left: 14px;
+	}
+	.menu {
+		font-size: 13px;
+	}
+	.title-big {
+		font-size: 35px;
+		line-height: 46px;
+	}
+	.billbord {
+		padding-top: 170px;
+		padding-bottom: 200px;
+		min-height: initial;
+	}
+	.block-billbord__title strong {
+		font-size: 30px;
+		line-height: 35px;
+	}
+	.block-billbord__title span {
+		font-size: 18px;
+	}
+	.block-billbord__title {
+		font-size: 27px;
+		line-height: 26px;
+		margin-bottom: 20px;
+	}
+	.item-service__image {
+		height: 472px;
+	}
+	.tabs-page a {
+		font-size: 16px;
+		min-width: 148px;
+	}
+	.buttons-filter {
+		flex-direction: column;
+	}
+	.buttons-filter .btn-clear {
+		margin: 0;
+		margin-top: 15px;
+	}
+	.title-filter {
+		font-size: 16px;
+	}
+	.block-filter .range-catalog {
+		width: 196px;
+	}
+	.descr-big {
+		font-size: 18px;
+	}
+	.title-small {
+		font-size: 24px;
+	}
+	.block-form .descr-big {
+		padding: 0;
+		padding-bottom: 20px;
+	}
+	.checkbox-wrap .checkbox {
+		white-space: normal;
+	}
+	.block-form {
+		padding: 30px 15px;
+	}
+	.help .list-main li span {
+		margin-bottom: 15px;
+	}
+	.list-main li {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.help {
+		padding-bottom: 60px;
+	}
+	.help .list-main {
+		margin-top: 25px;	
+	}
+	.instagram .instagram-link {
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	.instagram .title-section {
+		padding-top: 15px;
+		padding-bottom: 30px;
+	}
+	.footer .social-links {
+		display: none;
+	}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.menu-mobile {
+	display: none !important;
+}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media (min-width: 1400px) {
+	.container {
+		max-width: 1400px;
+	}
+}
+@media (min-width: 1600px) {
+	.container {
+		max-width: 1600px;
+	}
+}
