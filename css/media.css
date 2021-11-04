@@ -44,7 +44,7 @@
 		font-size: 42px;
 		line-height: 52px;
 	}
-	.steps .title-section {
+	.steps .title-section { 
 		max-width: 639px;
 	}
 	.mortgage .title-section {
@@ -318,12 +318,490 @@
 	}
 }
 
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.header  .menu,
+	.block-billbord,
+	.header__wrap .phones-item,
+	.header__wrap  .location-item,
+	.header__wrap .contact-item {
+		display: none;
+	}
+	.billbord {
+		padding-top: 120px;
+		padding-bottom: 100px;
+	}
+	.buttons-fixed {
+		top: 130px;
+	}
+	.billbord .title-big {
+		padding-bottom: 35px;
+	}
+	.billbord::before {
+		height: 230px;
+	}
+	.billbord .title-consult {
+		padding-top: 0;
+	}
+	.services .container {
+		top: -50px;
+	}
+	.services {
+		margin-bottom: 0;
+	}
+	.title-section {
+		font-size: 32px;
+		line-height: 43px;
+	}
+	.wrap-filter {
+		flex-wrap: wrap;
+	}
+	.buttons-filter {
+		flex-direction: row;
+	}
+	.buttons-filter .btn-clear {
+		margin: 0;
+		margin-left: 20px;
+	}
+	.block-filter .range-catalog {
+		width: 223px;
+	}
+	.tabs-page {
+		margin-bottom: 30px;
+	}
+	.consult-block {
+		flex-wrap: wrap;
+	}
+	.consult-block__left {
+		max-width: 100%;
+		margin-bottom: 30px;
+	}
+	.help .title-section {
+		padding-top: 40px;
+	}
+	.help .block-form {
+		float: none;
+		padding: 30px;
+	}
+	.block-form .btn-main {
+		margin-bottom: 20px;
+	}
+	.item-step__title {
+		font-size: 20px;
+	}
+	.steps {
+		padding-bottom: 40px;
+	}
+	.mortgage .title-section {
+		padding-bottom: 25px;
+	}
+	.favorites .catalog-wrap {
+		padding-bottom: 25px;
+	}
+	.slider-reviews {
+		margin-top: 0px;
+	}
+	.instagram-image {
+		display: none;
+	}
+	.row_insta {
+		margin-top: 25px;
+	}
+	.instagram {
+		padding-bottom: 40px;
+	}
+	.mortgage {
+		padding-top: 40px;
+		padding-bottom: 50px;
+	}
+	.favorites .section-dark {
+		padding-bottom: 120px;
+	}
+	.reviews {
+		padding-top: 35px;
+	}
+	.instagram .title-section {
+		padding-bottom: 25px;
+	}
+	.contacts-block {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	.contacts {
+		background-color: #27313e;
+	}
+	#map {
+		height: 350px;
+	}
+	.footer__wrap {
+		flex-wrap: wrap;
+	}
+	.footer__wrap .location-item {
+		width: 33%;
+	}
+	.footer__wrap .logo-wrap {
+		width: 100%;
+		margin-bottom: 25px;
+	}
+	.footer {
+		font-size: 13px;
+	}
+	.footer .menu {
+		flex-wrap: wrap;
+	}
+	.footer .menu li {
+		width: 25%;
+		text-align: center;
+	}
+	.footer__bottom .row > div {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.footer__bottom .row > div:nth-child(2) {
+		text-align: right;
+	}
+	.btn_nav {
+		display: inline-block;
+	}
+	.menu-mobile {
+		font-size: 14px;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		overflow: auto;
+		padding: 15px 15px;
+		padding-bottom: 120px;
+		    background-color: #27313e;
+		    display: none;
+	}
+	.header.active {
+		 background-color: #27313e;
+	}
+	.menu-mobile .social-links a {
+		    background-color: #3f4a58;
+	}
+	.menu-mobile .menu {
+		display: block;
+	}
+	.menu__haschild a {
+		display: block;
+	}
+	.menu li ul {
+		padding: 0;
+		width: 100%;
+		position: relative;
+		top: 0;
+		left: 0;
+		visibility: visible;
+		opacity: 1;
+		display: none;
+		transition: 0;
+	}
+	.menu-mobile .social-links,
+	.menu-mobile .phones-item,
+	.menu-mobile .contact-item,
+	.menu-mobile .location-item {
+		margin-top: 15px;
+	}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.title-big {
+		font-size: 31px;
+		line-height: 41px;
+	}
+	.buttons-fixed {
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		top: auto;
+	}
+	.buttons-fixed li {
+		flex: 1;
+	}
+	.buttons-fixed a {
+		margin: 0;
+		border-radius: 0;
+		width: 100%;
+	}
+	.billbord::before {
+		height: 110px;
+	}
+	.item-service__image {
+		height: 425px;
+	}
+	.tabs-page {
+		flex-wrap: wrap;
+		margin-bottom: 10px;
+	}
+	.tabs-page li {
+		width: 50%;
+	}
+	.tabs-page a {
+		margin: 5px;
+		display: flex;
+	}
+	.wrap-filter__item:first-child {
+		width: 100%;
+	}
+	.block-filter .range-catalog {
+		width: 200px;
+	}
+	.irs--flat .irs-from, .irs--flat .irs-to, .irs--flat .irs-single {
+		font-size: 12px;
+	}
+	.block-filter {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.item-catalog__image {
+		height: 240px;
+	}
+	.consult-block {
+		padding: 30px;
+	}
+	.consult-block .form-line .item-form {
+		width: 215px;
+	}
+	.title-section {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.help .list-main li::before {
+		width: 33px;
+		height: 33px;
+	}
+	.help .list-main li {
+		padding-left: 44px;
+		padding-right: 4px;
+	}
+	.list-main li {
+		font-size: 14px;
+		line-height: 22px;
+		padding-top: 8px;
+		padding-left: 50px;
+	}
+	.help .list-main li {
+		line-height: 23px;
+	}
+	.help .list-main li span {
+		margin-bottom: 5px;
+	}
+	.title-small {
+		font-size: 20px;
+	}
+	.help .title-section {
+		padding-bottom: 25px;
+	}
+	.row_steps > div {
+		margin-bottom: 25px;
+	}
+	.mortgage-block ul li {
+		margin: 10px 0;
+	}
+	.mortgage-block__icon {
+		margin-bottom: 10px;
+	}
+	.mortgage-block {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.row_min > div {
+		margin-bottom: 15px;
+	}
+	.slider-reviews {
+		padding-bottom: 35px;
+	}
+	.instagram .title-section {
+		padding-top: 0;
+	}
+	.col_lr {
+		padding: 0 15px;
+	}
+	.row_insta {
+		margin: 0 -5px;
+		margin-top: 20px;
+	}
+	.row_insta > div {
+		padding: 0 5px;
+	}
+	.row_contacts > div {
+		margin-bottom: 15px;
+	}
+	.contacts-block {
+		font-size: 16px;
+		padding: 20px;
+	}
+	.footer .phones-item,
+	.footer__wrap .contact-item,
+	.footer__wrap .location-item {
+		width: 50%;
+		margin-bottom: 10px;
+	}
+	.footer__wrap {
+		padding-bottom: 15px;
+	}
+	.footer .menu li {
+		width: 50%;
+		text-align: left;
+	}
+	.footer__bottom .row > div,
+	.footer__bottom .row > div:nth-child(2) {
+		text-align: center;
+	}
+	.btn-main {
+		font-size: 14px;	
+	}
+	.form-line .btn-main {
+		padding: 0 25px;
+	}
+	.form-line .item-form {
+		width: 229px;
+	}
+	.billbord .title-consult {
+		padding-bottom: 7px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.title-big {
+		font-size: 25px;
+		line-height: 32px;
+	}
+	.form-line {
+		display: block;
+	}
+	.form-line .item-form {
+		width: 100%;
+		margin: 0;
+		margin-bottom: 19px;
+	}
+	.form-line .btn-main {
+		width: 100%;
+	}
+	.catalog .title-section, .services .title-section {
+		padding-bottom: 15px;
+		margin-bottom: 30px;
+	}
+	.item-service__list li {
+		margin-top: 15px;
+	}
+	.title-section {
+		font-size: 24px;
+		line-height: 35px;
+	}
+	.block-filter .range-catalog {
+		width: 100%;
+	}
+	.wrap-filter__item {
+		width: 100%;
+	}
+	.tabs-page a {
+		font-size: 14px;
+		min-width: 125px;
+		height: 44px;
+	}
+	.buttons-filter {
+		flex-direction: column;
+	}
+	.buttons-filter .btn-clear {
+		margin: 0;
+		margin-top: 15px;
+	}
+	.catalog-wrap {
+		padding: 15px;
+		padding-bottom: 5px;
+	}
+	.item-catalog__image {
+		height: 200px;
+	}
+	.title-middle {
+		font-size: 27px;
+		padding-bottom: 16px;
+	}
+	.descr-big {
+		font-size: 16px;
+	}
+	.consult-block {
+		padding: 25px 15px;
+	}
+	.consult-block .form-line .item-form {
+		width: 100%;
+	}
+	.title-small {
+		font-size: 17px;
+	}
+	.help .list-main {
+		display: block;
+	}
+	.help .list-main li {
+		padding-right: 0;
+		padding-top: 0;
+	}
+	.help .block-form {
+		padding: 25px 20px;
+	}
+	.block-form .btn-main {
+		margin-bottom: 0;
+	}
+	.steps {
+		padding-top: 40px;
+	}
+	.item-step {
+		padding: 25px 15px;
+		font-size: 14px;
+	}
+	.mortgage .title-section {
+		line-height: 34px;
+	}
+	.mortgage-block ul li {
+		padding-right: 0;
+	}
+	.mortgage-block ul, .item-service__list {
+		font-size: 14px;
+	}
+	.favorites .section-dark {
+		padding-top: 40px;
+	}
+	.contacts-block {
+		font-size: 14px;
+		padding-bottom: 30px;
+	}
+	.title-min {
+		font-size: 16px;
+		padding-bottom: 10px;
+	}
+	.list-social a {
+		margin-bottom: 7px;
+	}
+	.contacts-block__bottom {
+		padding-top: 15px;
+	}
+	#map {
+		height: 290px;
+	}
+	.footer__wrap .location-item {
+		padding-left: 0;
+	}
+	.footer__wrap .location-item i {
+		display: none;
+	}
+}
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
 }
-
+ 
 
 /*==========  Mobile First Method  ==========*/
 
