@@ -506,6 +506,9 @@
 	.menu-mobile .location-item {
 		margin-top: 15px;
 	}
+	.consult-block__right {
+		width: 100%;
+	}
 }
 
 
@@ -715,7 +718,7 @@
 	}
 	.buttons-filter .btn-clear {
 		margin: 0;
-		margin-top: 15px;
+		margin-top: 25px;
 	}
 	.catalog-wrap {
 		padding: 15px;

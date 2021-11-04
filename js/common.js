@@ -87,6 +87,7 @@ if ($(window).width() < 992) {
 		dots: false,
 		infinite: true,
 		touchThreshold: 1000,
+		swipe: false,
 		slidesToShow: 1,
 		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
 		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
