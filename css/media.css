@@ -94,6 +94,21 @@
 	.list-main li {
 		margin-bottom: 25px;
 	}
+	.item-news__title {
+    font-size: 22px;
+}
+.item-news__date {
+    font-size: 16px;
+    }
+    .item-news__image {
+    height: 222px;
+}
+.item-news {
+	margin-bottom: 40px;
+}
+.col_article {
+    padding-right: 35px;
+}
 }
 @media only screen and (max-width : 1400px) {
 	.phones-item {
@@ -216,6 +231,26 @@
 	.footer .social-links {
 		margin-right: -10px;
 	}
+	.news-block {
+		padding: 30px 30px;
+	}
+	.item-news__title {
+    font-size: 19px;
+}
+.item-news__date {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.item-news__image {
+	height: 198px;
+	margin-bottom: 18px;
+}
+.article-block {
+	padding: 30px 30px;
+}
+.col_article {
+	padding-right: 15px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -316,6 +351,25 @@
 	.footer .social-links {
 		display: none;
 	}
+	.page-numbers {
+		font-size: 18px;
+	}
+	.article-block h1 {
+		font-size: 30px;
+	}
+	.article-block time {
+		font-size: 16px;
+	}
+	.col_article img {
+		margin-bottom: 20px;
+	}
+	.article-block h2 {
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+	.wrapper {
+		overflow: hidden;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -339,7 +393,7 @@
 	}
 	.billbord::before {
 		height: 230px;
-	}
+	} 
 	.billbord .title-consult {
 		padding-top: 0;
 	}
@@ -509,6 +563,16 @@
 	.consult-block__right {
 		width: 100%;
 	}
+	.wrapper_page {
+    padding-top: 123px;
+}
+.title-page {
+	font-size: 30px;
+	padding-bottom: 15px;
+}
+.page-numbers {
+	margin: 0 20px;
+}
 }
 
 
@@ -671,7 +735,16 @@
 	.billbord .title-consult {
 		padding-bottom: 7px;
 	}
-
+.article-block h1 {
+    font-size: 26px;
+}
+.article-block {
+	padding: 25px 20px;
+}
+.article-block h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -798,6 +871,27 @@
 	.footer__wrap .location-item i {
 		display: none;
 	}
+	.article-block,
+	.news-block {
+		padding: 25px 15px;
+		margin: 0 -15px;
+		border-radius: 0;
+	}
+	.article-block {
+		padding-bottom: 30px;
+	}
+	.article {
+		padding-bottom: 0;
+	}
+	.item-news {
+		margin-bottom: 30px;
+	}
+	.page-numbers {
+    margin: 0 8px;
+}
+.news {
+	padding-bottom: 0;
+}
 }
 
 /* Custom, iPhone Retina */
