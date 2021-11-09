@@ -2342,3 +2342,26 @@ font-weight: 700;
 .phone-block.active .phone-block__number {
 margin-right: 0;
 }
+.mortgage-section {
+	padding-top: 32px;
+	padding-bottom: 33px;
+}
+.mortgage-block {
+	padding: 65px 55px;
+	padding-bottom: 70px;
+	color: #ffffff;
+	background-image: url(../img/bg_mortage.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.mortgage-info .title-section {
+	padding-bottom: 30px;
+	max-width: 510px;
+}
+.mortgage-info__descr {
+	font-size: 20px;
+line-height: 28px;
+font-weight: 600;
+max-width: 510px;
+}
