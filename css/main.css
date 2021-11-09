@@ -17,7 +17,7 @@
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
-	
+	 
 }
 body input:required:valid,
 body textarea:required:valid {
@@ -30,7 +30,7 @@ body {
 	overflow-x: hidden; 
 	margin: 0;
 	color: #27313e;
-	background-color: #fff;
+	background-color: #fff; 
 }
 button {
 	cursor: pointer;
