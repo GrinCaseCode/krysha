@@ -2444,3 +2444,19 @@ flex: none;
 	align-items: center;
 	justify-content: center;
 }
+.reviews-block {
+	padding: 25px 35px;
+	padding-bottom: 45px;
+	background-color: #f1f4fa;
+border-radius: 6px;
+}
+.reviews-page { 
+	padding-top: 5px;
+	padding-bottom: 35px;
+}
+.row_reviews > div {
+	margin-bottom: 30px;
+}
+.reviews-block .pager {
+	margin-top: 15px;
+}

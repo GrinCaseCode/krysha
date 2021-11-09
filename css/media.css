@@ -1033,6 +1033,7 @@
 	.item-step {
 		padding: 25px 15px;
 		font-size: 14px;
+		min-height: 122px;
 	}
 	.mortgage .title-section {
 		line-height: 34px;
