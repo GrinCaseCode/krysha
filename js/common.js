@@ -164,7 +164,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		mobileFirst: true,
 		responsive: [
 		{
-			breakpoint: 992, 
+			breakpoint: 768, 
 			settings: 'unslick'
 		}
 		]

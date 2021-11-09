@@ -95,40 +95,50 @@
 		margin-bottom: 25px;
 	}
 	.item-news__title {
-    font-size: 22px;
-}
-.item-news__date {
-    font-size: 16px;
-    }
-    .item-news__image {
-    height: 222px;
-}
-.item-news {
-	margin-bottom: 40px;
-}
-.col_article {
-    padding-right: 35px;
-}
-.item-catalog__image {
-	height: 220px;
-}
-.col_consult {
-    padding-left: 20px;
-}
-.consult__title {
-	font-size: 22px;
-}
-.feature-card {
-    font-size: 17px;
-    line-height: 33px;
-    margin-left: 50px;
-    }
-    .price-card {
-    font-size: 26px;
-}
-.consult {
-	padding: 30px 20px;
-}
+		font-size: 22px;
+	}
+	.item-news__date {
+		font-size: 16px;
+	}
+	.item-news__image {
+		height: 222px;
+	}
+	.item-news {
+		margin-bottom: 40px;
+	}
+	.col_article {
+		padding-right: 35px;
+	}
+	.item-catalog__image {
+		height: 220px;
+	}
+	.col_consult {
+		padding-left: 20px;
+	}
+	.consult__title {
+		font-size: 22px;
+	}
+	.feature-card {
+		font-size: 17px;
+		line-height: 33px;
+		margin-left: 50px;
+	}
+	.price-card {
+		font-size: 26px;
+	}
+	.consult {
+		padding: 30px 20px;
+	}
+	.mortgage-section .form-line {
+		margin-top: 50px;
+	}
+	.row_mortgage {
+		margin-top: 20px;
+	}
+	.mortgage-info {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
 }
 @media only screen and (max-width : 1400px) {
 	.phones-item {
@@ -255,67 +265,76 @@
 		padding: 30px 30px;
 	}
 	.item-news__title {
-    font-size: 19px;
-}
-.item-news__date {
-    font-size: 14px;
-    margin-bottom: 8px;
-}
-.item-news__image {
-	height: 198px;
-	margin-bottom: 18px;
-}
-.article-block {
-	padding: 30px 30px;
-}
-.col_article {
-	padding-right: 15px;
-}
-.card-block {
-	padding-left: 20px;
-	padding-right: 20px;
-}
-.slider-for__item {
-    height: 405px;
-    }
-    .slider-nav__item {
-    	height: 90px;
-    }
-    .slider-nav {
-    margin-left: -30px;
-}
-.feature-card__value {
-    font-size: 20px;
-    }
-    .feature-card {
-    font-size: 16px;
-    line-height: 28px;
-    margin-left: 40px;
-}
-.info-card {
-	margin-bottom: 25px;
-}
-.consult {
-	padding: 20px 15px;
-}
-.consult__title {
-    font-size: 20px;
-}
-.phone-block__number {
-    font-size: 21px;
-}
-.phone-block__link {
-    font-size: 16px;
-    }
-    .phone-block__number::before {
-    	width: 112px;
-    }
-    .tabs-card a {
-    font-size: 16px;
-}
-.tabs-card li {
-	margin-right: 30px;
-}
+		font-size: 19px;
+	}
+	.item-news__date {
+		font-size: 14px;
+		margin-bottom: 8px;
+	}
+	.item-news__image {
+		height: 198px;
+		margin-bottom: 18px;
+	}
+	.article-block {
+		padding: 30px 30px;
+	}
+	.col_article {
+		padding-right: 15px;
+	}
+	.card-block {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.slider-for__item {
+		height: 405px;
+	}
+	.slider-nav__item {
+		height: 90px;
+	}
+	.slider-nav {
+		margin-left: -30px;
+	}
+	.feature-card__value {
+		font-size: 20px;
+	}
+	.feature-card {
+		font-size: 16px;
+		line-height: 28px;
+		margin-left: 40px;
+	}
+	.info-card {
+		margin-bottom: 25px;
+	}
+	.consult {
+		padding: 20px 15px;
+	}
+	.consult__title {
+		font-size: 20px;
+	}
+	.phone-block__number {
+		font-size: 21px;
+	}
+	.phone-block__link {
+		font-size: 16px;
+	}
+	.phone-block__number::before {
+		width: 112px;
+	}
+	.tabs-card a {
+		font-size: 16px;
+	}
+	.tabs-card li {
+		margin-right: 30px;
+	}
+	.item-mortgage {
+		font-size: 16px;
+		line-height: 22px;
+		padding: 28px 24px;
+	}
+	.steps_morgage .item-step {
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -461,6 +480,9 @@
 	}
 	.card-block .col_pr {
 		padding-right: 15px;
+	}
+	.mortgage-info {
+		background-position: left center;
 	}
 }
 
@@ -620,14 +642,14 @@
 		overflow: auto;
 		padding: 15px 15px;
 		padding-bottom: 120px;
-		    background-color: #27313e;
-		    display: none;
+		background-color: #27313e;
+		display: none;
 	}
 	.header.active {
-		 background-color: #27313e;
+		background-color: #27313e;
 	}
 	.menu-mobile .social-links a {
-		    background-color: #3f4a58;
+		background-color: #3f4a58;
 	}
 	.menu-mobile .menu {
 		display: block;
@@ -656,28 +678,36 @@
 		width: 100%;
 	}
 	.wrapper_page {
-    padding-top: 123px;
+		padding-top: 123px;
+	}
+	.title-page {
+		font-size: 30px;
+		padding-bottom: 15px;
+	}
+	.page-numbers {
+		margin: 0 20px;
+	}
+	.slider-for {
+		margin-right: 0;
+	}
+	.slider-nav {
+		margin: 0 -5px;
+		margin-top: 15px;
+	}
+	.slider-nav__item {
+		margin: 0 5px;
+	}
+	#map-card {
+		height: 380px;
+	}
+	.mortgage-info__descr {
+    font-size: 17px;
+    line-height: 24px;
 }
-.title-page {
-	font-size: 30px;
-	padding-bottom: 15px;
+.item-mortgage__head {
+	margin-bottom: 15px;
 }
-.page-numbers {
-	margin: 0 20px;
-}
-.slider-for {
-	margin-right: 0;
-}
-.slider-nav {
-	margin: 0 -5px;
-	margin-top: 15px;
-}
-.slider-nav__item {
-	margin: 0 5px;
-}
-#map-card {
-	height: 380px;
-}
+
 }
 
 
@@ -840,50 +870,79 @@
 	.billbord .title-consult {
 		padding-bottom: 7px;
 	}
-.article-block h1 {
-    font-size: 26px;
-}
-.article-block {
-	padding: 25px 20px;
-}
-.article-block h2 {
-    font-size: 20px;
-    margin-bottom: 15px;
-}
-.catalog-top {
-	padding-top: 20px;
-}
-.bottom-button .btn-main {
-    height: 55px;
-    padding: 0 40px;
-    font-size: 16px;
-}
-.title-block {
-    font-size: 26px;
-    }
-    .slider-for__item {
-    height: 285px;
-}
-.slider-nav__item {
-    height: 63px;
-}
-.info-card {
-	flex-wrap: wrap;
-}
-.info-card__price {
-	width: 100%;
-	margin-bottom: 15px;
-}
-.feature-card {
-	margin-right: 25px;
-	margin-left: 0;
-}
-.feature-card:last-child {
-	margin-right: 0;
-}
-.info-card {
-	padding-top: 20px;
-}
+	.article-block h1 {
+		font-size: 26px;
+	}
+	.article-block {
+		padding: 25px 20px;
+	}
+	.article-block h2 {
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	.catalog-top {
+		padding-top: 20px;
+	}
+	.bottom-button .btn-main {
+		height: 55px;
+		padding: 0 40px;
+		font-size: 16px;
+	}
+	.title-block {
+		font-size: 26px;
+	}
+	.slider-for__item {
+		height: 285px;
+	}
+	.slider-nav__item {
+		height: 63px;
+	}
+	.info-card {
+		flex-wrap: wrap;
+	}
+	.info-card__price {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.feature-card {
+		margin-right: 25px;
+		margin-left: 0;
+	}
+	.feature-card:last-child {
+		margin-right: 0;
+	}
+	.info-card {
+		padding-top: 20px;
+	}
+	.mortgage-info {
+		padding: 30px 20px;
+	}
+	.mortgage-info .title-section {
+		padding-bottom: 20px;
+	}
+	.row_mortgage > div {
+		margin-bottom: 20px;
+	}
+	.mortgage-section .form-line {
+		margin-top: 16px;
+	}
+	.step-btn {
+		display: none;
+	}
+	.step-btn-mobile {
+		padding-top: 10px;
+		text-align: center;
+	}
+	.reviews-block {
+		padding: 25px 20px;
+	}
+	.reviews-block .pager {
+		margin-top: 0;
+	}
+	.reviews-page {
+		padding-top: 0;
+	}
+
 }
 
 /* Extra Small Devices, Phones */
@@ -1010,6 +1069,7 @@
 	.footer__wrap .location-item i {
 		display: none;
 	}
+	.reviews-block,
 	.card-block,
 	.article-block,
 	.news-block {
@@ -1027,88 +1087,101 @@
 		margin-bottom: 30px;
 	}
 	.page-numbers {
-    margin: 0 8px;
-}
-.news {
-	padding-bottom: 0;
-}
-.catalog-top {
-	padding-bottom: 130px;
-}
-.item-map {
-	display: block;
-}
-.title-block {
-    font-size: 22px;
-}
-.slider-for__item {
-    height: 260px;
-}
-.feature-card {
-	margin-right: 0;
-	width: 50%;
-	margin-top: 15px;
-}
-.info-card__price {
-	margin-bottom: 5px;
-}
-.features-block {
-	padding: 20px 15px;
-	margin-bottom: 25px;
-}
-.features-block__title {
-    font-size: 21px;
-    padding-bottom: 10px;
-    }
-    .features-block__descr {
-    	font-size: 16px;
-    }
-    #map-card {
-    	height: 350px;
-    }
-    .tabs-card li {
-    	margin: 0;
-    	margin-bottom: 10px;
-    }
-    .tabs-card {
-    	justify-content: space-between;
-    }
-    .consult__image {
-    	width: 70px;
-    	height: 70px;
-    	margin-right: 15px;
-    }
-    .consult__title {
-    font-size: 18px;
-}
-.consult__head {
-    margin-bottom: 20px;
-    }
-    .phone-block {
-    	margin-bottom: 20px;
-    }
-    .consult .list-social {
-    	flex-wrap: wrap;
-    }
-    .consult .list-social li {
-    	flex: none;
-    	width: 50%;
-    }
-    .slider-nav__item {
-    	height: 60px;
-    	margin: 0 2px;
-    }
-    .slider-nav {
-    	margin-left: -2px;
-    	margin-right: -2px;
-    }
+		margin: 0 8px;
+	}
+	.news {
+		padding-bottom: 0;
+	}
+	.catalog-top {
+		padding-bottom: 130px;
+	}
+	.item-map {
+		display: block;
+	}
+	.title-block {
+		font-size: 22px;
+	}
+	.slider-for__item {
+		height: 260px;
+	}
+	.feature-card {
+		margin-right: 0;
+		width: 50%;
+		margin-top: 15px;
+	}
+	.info-card__price {
+		margin-bottom: 5px;
+	}
+	.features-block {
+		padding: 20px 15px;
+		margin-bottom: 25px;
+	}
+	.features-block__title {
+		font-size: 21px;
+		padding-bottom: 10px;
+	}
+	.features-block__descr {
+		font-size: 16px;
+	}
+	#map-card {
+		height: 350px;
+	}
+	.tabs-card li {
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	.tabs-card {
+		justify-content: space-between;
+	}
+	.consult__image {
+		width: 70px;
+		height: 70px;
+		margin-right: 15px;
+	}
+	.consult__title {
+		font-size: 18px;
+	}
+	.consult__head {
+		margin-bottom: 20px;
+	}
+	.phone-block {
+		margin-bottom: 20px;
+	}
+	.consult .list-social {
+		flex-wrap: wrap;
+	}
+	.consult .list-social li {
+		flex: none;
+		width: 50%;
+	}
+	.slider-nav__item {
+		height: 60px;
+		margin: 0 2px;
+	}
+	.slider-nav {
+		margin-left: -2px;
+		margin-right: -2px;
+	} 
+	.steps_morgage .item-step { 
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.item-review__bottom {
+		padding-top: 20px;
+	}
+	.reviews-page {
+		padding-bottom: 0;
+	}
+	.reviews-block {
+		padding-bottom: 40px;
+	}
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
 }
- 
+
 
 /*==========  Mobile First Method  ==========*/
 
@@ -1124,14 +1197,16 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
+.step-btn-mobile {
+	display: none !important;
+}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-.menu-mobile {
-	display: none !important;
-}
+	.menu-mobile {
+		display: none !important;
+	}
 }
 
 /* Large Devices, Wide Screens */
