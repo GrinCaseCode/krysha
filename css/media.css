@@ -126,6 +126,9 @@
     .price-card {
     font-size: 26px;
 }
+.consult {
+	padding: 30px 20px;
+}
 }
 @media only screen and (max-width : 1400px) {
 	.phones-item {
