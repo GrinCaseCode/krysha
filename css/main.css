@@ -454,6 +454,10 @@ transition: all 0.3s;
 	resize: none;
 	width: 100%;
 }
+.item-form textarea {
+	height: 112px;
+	padding-top: 15px;
+}
 .form-line .item-form {
 	margin: 0;
 	width: 312px;
@@ -2460,3 +2464,230 @@ border-radius: 6px;
 .reviews-block .pager {
 	margin-top: 15px;
 }
+
+.contacts-main {
+padding: 33px 55px;
+padding-bottom: 48px;
+background-color: #f1f4fa;
+border-radius: 6px;
+}
+.header .btn-main {
+	margin-right: -54px;
+    margin-left: 64px;
+	font-size: 13px;
+	height: 41px;
+	padding: 0 25px;
+line-height: 1.2;
+font-weight: 700;
+text-transform: none;
+	box-shadow: none;
+}
+.contacts-page {
+	padding-bottom: 31px;
+}
+#map-contact {
+	height: 520px;
+background-color: #ffffff;
+border-radius: 6px;
+	width: 100%;
+}
+.descr-form {
+	font-size: 18px;
+line-height: 1.2;
+margin-bottom: 18px;
+text-align: center;
+}
+.contacts-main .title-block {
+	padding-bottom: 10px;
+	text-align: center;
+}
+.contacts-main .checkbox {
+	margin-top: -10px;
+	color: #27313e;
+}
+.contacts-main__right {
+padding-left: 35px;
+}
+.contacts-main__right .btn-main {
+	height: 76px;
+	margin-top: 38px;
+	font-size: 18px;
+	width: 100%;
+}
+.contacts-main__left {
+	font-size: 18px;
+	line-height: 24px;
+}
+.contacts-main__left p a {
+	color: #27313e;
+}
+.contacts-main__left .title-min {
+	margin-top: 30px;
+	padding-bottom: 13px;
+}
+.contacts-main__left .title-page {
+	padding-bottom: 0;
+}
+.contacts-main__left .title-page + .title-min {
+	margin-top: 20px;
+}
+.contacts-main .social-links a {
+	margin-right: 5px;
+	background-color: #fff;
+}
+.contacts-main .social-links {
+	margin-top: 20px;
+}
+.contacts-main__left .btn-main {
+	height: 60px;
+	margin-top: 30px;
+	min-width: 170px;
+}
+.modal-wrap {
+	padding: 40px 70px;
+	width: 784px;
+	max-width: 100%;
+	margin: 0 auto;
+	color: #fff;
+	background-color: #212a36;
+border: 1px solid rgba(255,255,255,0.22);
+border-radius: 6px;
+}
+.modal-wrap .title-block {
+	padding-bottom: 35px;
+	color: #fcc741;
+	text-align: center;
+}
+.fancybox-skin {
+	padding: 0 !important;
+	background-color: transparent !important;
+	box-shadow: none !important;
+}
+.fancybox-close {
+	top: 12px;
+	right: 14px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center; 
+	font-size: 22px;
+	color: #fff;
+	background-image: none !important;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	line-height: 1;
+	font-weight: 300;
+	font-family: "Font Awesome 5 Pro";
+}
+.fancybox-close::before {
+	content: "\f057";
+}
+.fancybox-inner {
+	overflow: visible !important;
+}
+.modal-wrap .item-form textarea {
+	height: 146px;
+}
+.modal-wrap__bottom {
+	text-align: center;
+}
+.modal-wrap .btn-main {
+	font-size: 18px;
+	min-width: 312px;
+	margin-bottom: 20px;
+	height: 76px;
+}
+.upload-item {
+	height: 145px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fff;
+	justify-content: center;
+	text-align: center;
+	border: 1px dashed #ffffff;
+border-radius: 6px;
+cursor: pointer;
+position: relative;
+}
+.fl_upld input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	opacity: 0;
+	cursor: pointer;
+}
+.title-upload {
+	font-size: 18px;
+line-height: 1.2;
+margin-bottom: 15px;
+font-weight: 600;
+}
+.descr-upload {
+	font-size: 14px;
+line-height: 21px;
+}
+.descr-upload span {
+	color: #fcc741;
+	border-bottom: 1px solid #fcc741;
+	font-weight: 600;
+	transition: all 0.3s;
+}
+.upload-item .descr-upload:hover span {
+	border-color: transparent;
+}
+.fancybox-overlay {
+	background-image: none;
+	background-color: rgba(33,42,54,0.7);
+}
+.modal-block {
+	display: none;
+}
+.modal-wrap_min {
+	width: 563px;
+}
+.icon-thanks {
+	padding-top: 15px;
+}
+.icon-thanks img {
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+}
+.modal-wrap_min .title-block {
+	padding-bottom: 17px;
+}
+.thanks-block {
+	padding: 170px 52px;
+	background-color: #f1f4fa;
+border-radius: 6px;
+background-image: url(../img/bg_thanks.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.thanks-block .btn-main {
+	font-size: 13px;
+	font-weight: 700;
+	height: 41px;
+	padding: 0 30px;
+	text-transform: none;
+	margin-top: 25px;
+}
+.descr-page {
+	font-size: 18px;
+line-height: 1.2;
+}
+.thanks {
+	padding-bottom: 25px;
+}
+.thanks-block .title-page {
+	padding-bottom: 15px;
+}  

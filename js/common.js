@@ -42,11 +42,25 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
 	}
 
+	 /*input file*/
+  $("input[type='file']").change(function(){
+    var filename_text = $(this).siblings(".name-upload");
+    var filename = $(this).val().replace(/.*\\/, "");
+    filename_text.html(filename);
+  });
+
+
 
 	
 	$(".btn-like").click(function(e) {
 		e.preventDefault();
 		$(this).toggleClass("active");
+	});
+
+
+$("#modal-add .btn-main").click(function(e) {
+		e.preventDefault();
+	 $.fancybox.open('#modal-thanks');
 	});
 
 	//слайдер

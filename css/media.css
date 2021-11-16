@@ -139,6 +139,23 @@
 		padding-top: 40px;
 		padding-bottom: 40px;
 	}
+	.header .btn-main {
+		margin-right: -23px;
+		margin-left: 35px;
+	}
+	.contacts-main {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.contacts-main__right {
+		padding-left: 10px;
+	}
+	.descr-form {
+		font-size: 17px;
+	}
+	.thanks-block {
+		padding: 130px 50px;
+	}
 }
 @media only screen and (max-width : 1400px) {
 	.phones-item {
@@ -335,6 +352,24 @@
 		padding-top: 35px;
 		padding-bottom: 35px;
 	}
+	.header .btn-main {
+		margin-right: 6px;
+		margin-left: 10px;
+	}
+	.contacts-main .title-block {
+		font-size: 26px;
+	}
+	.contacts-main__left {
+		font-size: 16px;
+	}
+	.contacts-main__right .btn-main {
+		height: 65px;
+		margin-top: 20px;
+		font-size: 16px;
+	}
+	.thanks-block {
+		background-position: left;
+	}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -484,7 +519,41 @@
 	.mortgage-info {
 		background-position: left center;
 	}
+	.header  .logo-descr {
+		display: none;
+	}
+	.contacts-main {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 30px;
+	}
+	.contacts-main__left .title-page {
+		font-size: 31px;
+	}
+	.contacts-main__left {
+		font-size: 14px;
+	}
+	.contacts-main__left .title-min {
+		font-size: 16px;
+	}
+	.contacts-main__left .btn-main {
+		min-width: initial;
+	}
+	#map-contact {
+		width: initial;
+		margin-left: 30px;
+	}
+	.descr-form {
+		font-size: 15px;
+	}
+	.contacts-main .title-block {
+		font-size: 21px;
+	}
+	.thanks-block {
+		padding: 120px 30px;
+	}
 }
+
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
@@ -701,13 +770,46 @@
 		height: 380px;
 	}
 	.mortgage-info__descr {
-    font-size: 17px;
-    line-height: 24px;
-}
-.item-mortgage__head {
-	margin-bottom: 15px;
-}
-
+		font-size: 17px;
+		line-height: 24px;
+	}
+	.item-mortgage__head {
+		margin-bottom: 15px;
+	}
+	.contacts-main__center {
+		order: 2;
+	}
+	#map-contact {
+		margin-left: 0;
+	}
+	.header__wrap .btn-main {
+		display: none;
+	}
+	.contacts-main {
+		padding: 30px;
+	}
+	.contacts-main__left .title-min {
+		margin-top: 20px;
+	}
+	.contacts-main__left,
+	.contacts-main__right {
+		padding-bottom: 30px;
+	}
+	.menu-mobile .menu {
+		margin-bottom: 20px;
+	}
+	.menu-mobile .btn-main {
+		margin: 0;
+	}
+	.modal-wrap {
+		padding: 40px 30px;
+	}
+	.modal-wrap .title-block {
+		padding-bottom: 25px;
+	}
+	.thanks-block {
+		padding: 60px 30px;
+	}
 }
 
 
@@ -942,7 +1044,19 @@
 	.reviews-page {
 		padding-top: 0;
 	}
-
+	.contacts-main__center {
+		order: initial;
+	}
+	.contacts-main__right {
+		padding-top: 20px;
+		padding-right: 15px;
+	}
+	.contacts-main__left .btn-main {
+		min-width: 170px;
+	}
+	.descr-page {
+		font-size: 16px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1070,6 +1184,8 @@
 	.footer__wrap .location-item i {
 		display: none;
 	}
+	.thanks-block,
+	.contacts-main,
 	.reviews-block,
 	.card-block,
 	.article-block,
@@ -1176,6 +1292,48 @@
 	.reviews-block {
 		padding-bottom: 40px;
 	}
+	.contacts-main__left .title-min {
+		padding-bottom: 7px;
+	}
+	#map-contact {
+		margin: 0 -15px;
+		height: 380px;
+	}
+	.contacts-main__right {
+		padding-left: 15px;
+		padding-bottom: 20px;
+	}
+	.contacts-page {
+		padding-bottom: 0;
+	}
+	.modal-wrap {
+		padding: 30px 15px;
+	}
+	.title-upload {
+		font-size: 16px;
+	}
+	.modal-wrap .btn-main {
+		font-size: 16px;
+		min-width: 100%;
+		margin-bottom: 8px;
+		height: 65px;
+	}
+	.modal-wrap .title-block { 
+		padding-bottom: 15px;
+	}
+	.icon-thanks {
+		padding-top: 0;
+	}
+	.fancybox-close { 
+		top: 5px;
+		right: 8px;
+	}
+	.thanks-block {
+		padding: 35px 15px;
+	}
+	.thanks {
+		padding-bottom: 0;
+	}
 }
 
 /* Custom, iPhone Retina */
@@ -1198,9 +1356,9 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-.step-btn-mobile {
-	display: none !important;
-}
+	.step-btn-mobile {
+		display: none !important;
+	}
 }
 
 /* Medium Devices, Desktops */
