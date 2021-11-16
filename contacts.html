@@ -23,11 +23,11 @@
 	<link rel="stylesheet" href="css/main.css?ver=1.9" />
 	<link rel="stylesheet" href="css/media.css?ver=1.9" />
 </head>
-<body> 
+<body>
 
 	<div class="wrapper wrapper_page">
 
-		<ul class="buttons-fixed">
+		<ul class="buttons-fixed"> 
 			<li><a href="#"><i class="fas fa-heart"></i></a></li>
 			<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
 			<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
@@ -167,93 +167,56 @@
 			</div>
 		</header>
 
-		<section class="mortgage-section">
+		<section class="contacts-page">
 			<div class="container">
-				<div class="mortgage-info">
-					<h1 class="title-section">Узнайте, какую <strong>сумму ипотеки</strong> вам одобрят!</h1>
-					<div class="mortgage-info__descr">Поможем получить одобрение банков, чтобы вы могли понимать бюджет на покупку квартиры</div>
-					<div class="row row_mortgage">
-						<div class="col-xl-4 col-md-6">
-							<div class="item-mortgage">
-								<div class="item-mortgage__head">
-									<div class="item-mortgage__icon">
-										<img src="img/ic_mortgage1.png" alt="akt">
-									</div>
-									<div class="mortgage-info__descr">Предложения <br>от лучших банков</div>
+				<ul class="breadcrumbs">
+					<li><a href="#">Главная</a><span>></span></li>
+					<li>Контакты</li>
+				</ul>
+				<div class="contacts-main">
+					<div class="row">
+						<div class="col-lg-2 col-md-5 contacts-main__left">
+							<h1 class="title-page">Контакты</h1>
+							<div class="title-min">Наши контакты</div>
+							<p>г. Симферополь, <br>ул. Красная, 15</p>
+							<div class="title-min">E-mail:</div> 
+							<p><a href="mailto:an_vk63@mail.ru">an_vk63@mail.ru;</a></p>
+							<div class="title-min">Телефоны</div>
+							<p><a href="tel:+79788363316">+7 (978) 836-33-16</a></p>
+							<p><a href="tel:+73652541198">+7 (3652) 54-11-98</a></p>
+							<ul class="social-links"> 
+								<li><a href="#" style="color: #45d22e;"><i class="fab fa-whatsapp"></i></a></li>
+								<li><a href="#" style="color: #3c8ddf;"><i class="fab fa-telegram-plane"></i></a></li>
+								<li><a href="#" style="color: #bd1b9d;"><i class="fab fa-instagram"></i></a></li>
+							</ul>
+							<a href="#" class="btn-main">маршрут</a>
+						</div> 	
+						<div class="col-lg-7 contacts-main__center">
+							<div id="map-contact"></div>
+						</div>
+						<div class="col-lg-3 col-md-7 contacts-main__right">
+							<div class="title-block">Остались вопросы?</div>
+							<div class="descr-form">Заполните форму и наш специалист свяжется в Вами в ближайшее время</div>
+							<form>
+								<div class="item-form">
+									<input type="text" placeholder="Имя" required="required">
 								</div>
-								<p>Мы работаем c множеством крупных банков Крыма и собираем для вас наиболее выгодные предложения</p>
-							</div>
-						</div>
-						<div class="col-xl-4 col-md-6">
-							<div class="item-mortgage">
-								<div class="item-mortgage__head">
-									<div class="item-mortgage__icon">
-										<img src="img/ic_mortgage2.png" alt="akt">
-									</div>
-									<div class="mortgage-info__descr">Работаем <br>по договору</div>
+								<div class="item-form">
+									<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
 								</div>
-								<p>Реальные процентные ставки из банков и никаких скрытых комиссий!</p>
-							</div>
+								<div class="item-form">
+									<textarea placeholder="Сообщение"></textarea>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" required="required" checked="checked" />
+										<span>Согласие на обработку персональных данных</span>
+									</label>
+								</div>
+								<button class="btn-main">отправить</button>
+							</form>
 						</div>
 					</div>
-					<form>
-						<div class="form-line">
-							<div class="item-form">
-								<input type="text" placeholder="+7 (___) ___-__-__" required="required" class="input-phone">
-							</div>
-							<button class="btn-main">УЗНАТЬ СУММУ</button>
-						</div>
-						<div class="checkbox">
-							<label>
-								<input type="checkbox" required="required" checked="checked" />
-								<span>Согласие на обработку персональных данных</span>
-							</label>
-						</div>
-					</form>
-				</div>
-			</div>
-		</section>
-
-		<section class="steps steps_morgage section-dark">
-			<div class="container">
-				<h2 class="title-section">Как получить ипотеку</h2>
-				<div class="row row_steps">
-					<div class="col-xl-4 col-md-6">
-						<div class="item-step">
-							<div class="item-step__number">1</div>
-							<p>Заполните анкету на сайте <br>загрузите документы. <br>Нажмите «Отправить».</p>
-						</div>
-					</div>
-					<div class="col-xl-4 col-md-6">
-						<div class="item-step">
-							<div class="item-step__number">2</div>
-							<p>Эксперт по ипотеке проверит анкету и запросит недостающие данные. Затем отправит заявку сразу в несколько банков.</p>
-						</div>
-					</div>
-					<div class="col-xl-4 col-md-6">
-						<div class="item-step">
-							<div class="item-step__number">3</div>
-							<p>Отслеживайте статус заявки в личном кабинете на сайте</p>
-						</div>
-					</div>
-					<div class="col-xl-4 col-md-6">
-						<div class="item-step">
-							<div class="item-step__number">4</div>
-							<p>После проверки заявки банками, в личном кабинете появится информация о статусах и решениях по каждому банку.</p>
-						</div>
-					</div>
-					<div class="col-xl-4 col-md-6">
-						<div class="item-step">
-							<div class="item-step__number">5</div>
-							<p>Специалисты помогут выбрать недвижимость, проверят через банк, оформят оценку и страховку, зарегистрируют сделку</p>
-						</div>
-						<div class="step-btn">
-							<a href="#" class="btn-main">Получить консультацию</a>
-						</div>
-					</div>
-				</div>
-				<div class="step-btn-mobile">
-					<a href="#" class="btn-main">Получить консультацию</a>
 				</div>
 			</div>
 		</section>
@@ -408,6 +371,35 @@
 <script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
 <script src="js/common.js?ver=1.9"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+<script>
+	$(document).ready(function() {
+		ymaps.ready(init);
+
+		function init() {
+			var myMap = new ymaps.Map('map-contact', {
+				center: [44.970809, 34.107351],
+				zoom: 15
+			}, {
+				searchControlProvider: 'yandex#search'
+			});		
+
+			myPlacemark1 = new ymaps.Placemark([44.970809, 34.107351], {
+				balloonContent: '<p class="text-map">г. Симферополь, ул. Красная, 15</p>'
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.png',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [56, 61],
+				iconImageOffset: [-18, -61],
+				balloonOffset: [ 0, -61 ]
+			});
+			myMap.controls.remove('searchControl');
+			myMap.behaviors.disable('scrollZoom');
+			myMap.geoObjects.add(myPlacemark1);
+		}
+	});
+</script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
