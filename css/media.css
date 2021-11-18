@@ -156,6 +156,31 @@
 	.thanks-block {
 		padding: 130px 50px;
 	}
+	.about {
+		background-position: 22% 50%;
+	}
+	.item-about-simple {
+		padding-right: 0;
+	}
+	.about-services .list-main li {
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.about-services .title-section {
+    max-width: 955px;
+}
+.about-services .block-form .descr-big {
+	margin: 0;
+}
+.about-services {
+	padding: 65px 0;
+}
+.block-advantages {
+	font-size: 14px;
+	line-height: 23px;
+	padding: 35px 25px;
+	max-width: 1010px;
+}
 }
 @media only screen and (max-width : 1400px) {
 	.phones-item {
@@ -370,6 +395,24 @@
 	.thanks-block {
 		background-position: left;
 	}
+	.about-min {
+		max-width: 390px;
+		    font-size: 17px;
+    line-height: 22px;
+	}
+	.about {
+    padding-top: 60px;
+    padding-bottom: 70px;
+    background-position: 30% 50%;
+}
+.item-about-simple {
+	font-size: 18px;
+}
+.about-services .list-main li {
+	font-size: 16px;
+    line-height: 24px;
+	padding-right: 0;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -552,6 +595,33 @@
 	.thanks-block {
 		padding: 120px 30px;
 	}
+	.about .title-section {
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.about p {
+		margin-bottom: 15px;
+	}
+	.item-about {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.item-about-simple {
+    font-size: 16px;
+    line-height: 27px;
+}
+.about-services .list-main li {
+    font-size: 15px;
+    line-height: 21px;
+    padding-left: 58px;
+}
+.about-min__title {
+    font-size: 21px;
+    margin-bottom: 16px;
+}
+.row_serv > div {
+	margin-top: 50px;
+}
 }
 
 
@@ -810,6 +880,51 @@
 	.thanks-block {
 		padding: 60px 30px;
 	}
+	.about {
+		background-image: url(../img/bg_about2.jpg);
+	}
+	.about__right {
+		order: -2;
+	}
+	.about-info {
+		padding-top: 30px;
+		margin-top: 0;
+	}
+	.about-min {
+		max-width: 100%;
+	}
+	.item-about {
+		margin-bottom: 25px;
+	}
+	.about-services .col-lg-7 .title-small {
+		padding-bottom: 30px;
+		padding-top: 25px;
+	}
+	.about-services .title-section {
+		padding-bottom: 30px;
+	}
+	.block-advantages .icon-page {
+		margin: 15px 0;
+	}
+	.block-advantages {
+		margin-top: 25px;
+	}
+	.about-advantages .title-section {
+		padding-bottom: 25px;
+	}
+	.about-advantages {
+		padding-top: 40px;
+		padding-bottom: 50px;
+	}
+	.service-page .container {
+		top: -30px;
+	}
+	.service-page {
+		margin-bottom: 0;
+	}
+	.consultation {
+		padding-bottom: 60px;
+	}
 }
 
 
@@ -878,9 +993,14 @@
 		font-size: 30px;
 		line-height: 40px;
 	}
+	.about-services .list-main li::before,
 	.help .list-main li::before {
 		width: 33px;
 		height: 33px;
+		font-size: 13px;
+	}
+	.about-services .list-main li {
+		padding-left: 44px;
 	}
 	.help .list-main li {
 		padding-left: 44px;
@@ -1057,6 +1177,41 @@
 	.descr-page {
 		font-size: 16px;
 	}
+	.about .title-section {
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 25px;
+}
+.about {
+	padding-top: 35px;
+	padding-bottom: 55px;
+}
+.about-info .consult-block {
+	margin-bottom: 30px;
+}
+.item-about {
+	padding: 35px 30px;
+}
+.about-services {
+	padding-bottom: 40px;
+}
+.unit-service {
+	max-width: 100%;
+}
+.unit-service__head {
+	max-width: 260px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+.service-page {
+	padding-bottom: 20px;
+}
+.consultation-form {
+	padding: 35px 30px;
+}
+.consultation-form .title-small {
+	padding-bottom: 25px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -1333,6 +1488,34 @@
 	}
 	.thanks {
 		padding-bottom: 0;
+	}
+	.about-min {
+		padding: 30px 20px;
+	}
+	.item-about__head {
+		margin-bottom: 20px;
+	}
+	.item-about {
+		padding: 20px 20px;
+	}
+	.about-services {
+		padding-top: 50px;
+	}
+	.about-services .list-main {
+		columns: 1;
+	}
+	.about-services .list-main li {
+		padding-top: 0;
+		margin-bottom: 20px;
+	}
+	.billbord .title-big br {
+		display: none;
+	}
+	.row_serv > div {
+		margin-top: 30px;
+	}
+	.consultation-form {
+		padding: 25px 20px;
 	}
 }
 
