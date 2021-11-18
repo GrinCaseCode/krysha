@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/ion.rangeSlider-master/css/ion.rangeSlider.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.11" />
+	<link rel="stylesheet" href="css/media.css?ver=1.11" />
+</head>
+<body>
+
+	<div class="wrapper wrapper_page">
+
+		<ul class="buttons-fixed"> 
+			<li><a href="#"><i class="fas fa-heart"></i></a></li>
+			<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+			<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+			<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+		</ul>
+
+		<header class="header default">
+			<div class="container">
+				<div class="header__wrap"> 
+					<div class="logo-wrap">
+						<a href="#" class="logo">
+							<img src="img/logo.png" alt="alt">
+						</a>
+						<div class="logo-descr">Покупка и продажа недвижимости в Крыму</div>
+					</div>
+					<div class="location-item">
+						<i class="fas fa-map-marker-alt"></i>
+						<p>Симферополь, ул. Красная, 15</p>
+						<a href="#" class="link-simple">Показать на карте</a>
+					</div>
+					<div class="contact-item">
+						<p><strong>Работа офиса</strong></p>
+						<p>пн-пт с 9:00-18:00</p>
+					</div>
+					<div class="contact-item">
+						<p><strong>Наш E-mail:</strong></p>
+						<p><a href="mailto:an_vk63@mail.ru">an_vk63@mail.ru</a></p>
+					</div>
+					<a href="#modal-add" class="btn-main fancybox">Продать недвижимость</a>
+					<div class="phones-item">
+						<i class="fas fa-phone-alt"></i>
+						<p><a href="tel:+79788363316">+7 (978) 836-33-16</a></p>
+						<p><a href="tel:+73652541198">+7 (3652) 54-11-98</a></p>
+					</div>
+					<span class="btn_nav">
+						<span class='sandwich'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+					</span>
+				</div>
+				<ul class="menu">
+					<li class="menu__haschild">
+						<a href="#">База объектов</a>
+						<ul>
+							<li><a href="#">Пункт 1</a></li>
+							<li><a href="#">Пункт 2</a></li>
+							<li><a href="#">Пункт 3</a></li>
+							<li><a href="#">Пункт 4</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Продать недвижимость</a></li>
+					<li class="menu__haschild">
+						<a href="#">Услуги</a>
+						<ul>
+							<li><a href="#">Пункт 1</a></li>
+							<li><a href="#">Пункт 2</a></li>
+							<li><a href="#">Пункт 3</a></li>
+							<li><a href="#">Пункт 4</a></li>
+						</ul>
+					</li>
+					<li class="menu__haschild">
+						<a href="#">О компании</a>
+						<ul>
+							<li><a href="#">Пункт 1</a></li>
+							<li><a href="#">Пункт 2</a></li>
+							<li><a href="#">Пункт 3</a></li>
+							<li><a href="#">Пункт 4</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Ипотека</a></li>
+					<li><a href="#">Условия и оплата</a></li>
+					<li><a href="#">Отзывы</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="menu-mobile">
+				<ul class="menu">
+					<li class="menu__haschild">
+						<a href="#">База объектов</a>
+						<ul>
+							<li><a href="#">Пункт 1</a></li>
+							<li><a href="#">Пункт 2</a></li>
+							<li><a href="#">Пункт 3</a></li>
+							<li><a href="#">Пункт 4</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Продать недвижимость</a></li>
+					<li class="menu__haschild">
+						<a href="#">Услуги</a>
+						<ul>
+							<li><a href="#">Пункт 1</a></li>
+							<li><a href="#">Пункт 2</a></li>
+							<li><a href="#">Пункт 3</a></li>
+							<li><a href="#">Пункт 4</a></li>
+						</ul>
+					</li>
+					<li class="menu__haschild">
+						<a href="#">О компании</a>
+						<ul>
+							<li><a href="#">Пункт 1</a></li>
+							<li><a href="#">Пункт 2</a></li>
+							<li><a href="#">Пункт 3</a></li>
+							<li><a href="#">Пункт 4</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Ипотека</a></li>
+					<li><a href="#">Условия и оплата</a></li>
+					<li><a href="#">Отзывы</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+				<a href="#modal-add" class="btn-main fancybox">Продать недвижимость</a>
+				<div class="location-item">
+					<i class="fas fa-map-marker-alt"></i>
+					<p>Симферополь, ул. Красная, 15</p>
+					<a href="#" class="link-simple">Показать на карте</a>
+				</div>
+				<div class="contact-item">
+					<p><strong>Работа офиса</strong></p>
+					<p>пн-пт с 9:00-18:00</p>
+				</div>
+				<div class="contact-item">
+					<p><strong>Наш E-mail:</strong></p>
+					<p><a href="mailto:an_vk63@mail.ru">an_vk63@mail.ru</a></p>
+				</div>
+				<div class="phones-item">
+					<i class="fas fa-phone-alt"></i>
+					<p><a href="tel:+79788363316">+7 (978) 836-33-16</a></p>
+					<p><a href="tel:+73652541198">+7 (3652) 54-11-98</a></p>
+				</div>
+				<ul class="social-links">
+					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+					<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+				</ul>
+			</div>
+		</header>
+
+		<section class="about section-dark">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="about-min">
+							<div class="about-min__title">Наше видение</div>
+							<p>действия сотрудников АН Ваша Крыша должны быть направлены на создание экологичной атмосферы вокруг человека, обратившегося за услугой</p>
+						</div>
+					</div>
+					<div class="col-lg-6 about__right">
+						<h1 class="title-section"><strong>В центре внимания</strong> сотрудников АН «Ваша Крыша» — <strong>Человек, обратившийся за помощью</strong> в решении своего вопроса по недвижимости</h1>
+						<p><span>Наш принцип</span> – максимально помочь каждому клиенту воплотить его идеи и пожелания в реальные действия с недвижимым имуществом, учитывая аналитику рынка недвижимости и все нюансы процесса сделки. Ежедневное отслеживание изменений в тенденциях развития рынка недвижимости, законодательстве, работе сопутствующих организаций позволяет специалистам нашей компании оказывать клиентам своевременные, юридически-грамотные и качественные услуги. </p>
+						<p>Главное – реализовать самую надежную и самую выгодную для нашего клиента сделку, чтобы затем получать от него положительные рекомендации и новых потенциальных клиентов . Наши специалисты осуществляют профессиональное сопровождение клиентов с момента первого обращения за консультацией вплоть до завершения процедуры оформления права собственности и других подтверждающих право документов.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about-info">
+			<div class="container">
+				<div class="consult-block">
+					<div class="consult-block__left">
+						<div class="title-middle">Нужна <span>бесплатная</span> помощь риэлтора?</div>
+						<div class="descr-big">Оставьте заявку и наш специалист проконсультирует вас по любому вопросу</div>
+					</div>
+					<div class="consult-block__right">
+						<form>
+							<div class="form-line">
+								<div class="item-form">
+									<input type="text" placeholder="+7 (___) ___-__-__" required="required" class="input-phone">
+								</div>
+								<button class="btn-main">заказать консультацию <strong>бесплатно</strong></button>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" required="required" checked="checked" />
+									<span>Согласие на обработку персональных данных</span>
+								</label>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="item-about-simple">
+							<p><strong>Агентство недвижимости «Ваша Крыша»</strong> основано с целью оказания инновационных и комфортных услуг на рынке недвижимости. В основе заложены идеи формирования и реализации принципиально новых подходов в сфере услуг, которые <strong>помогают выстраивать максимально комфортные взаимоотношения с Заказчиками услуг по любым видам сделок</strong> с недвижимостью.</p>
+						</div>
+						<div class="item-about">
+							<div class="item-about__head">
+								<div class="icon-page">
+									<img src="img/ic_about1.png" alt="alt">
+								</div>
+								<div class="title-min">Ответственность</div>
+							</div>
+							<p>Мы на 100% выполняем все данные обязательства перед клиентом, каких бы усилий нам это не стоило.</p>
+						</div>
+						<div class="item-about">
+							<div class="item-about__head">
+								<div class="icon-page">
+									<img src="img/ic_about2.png" alt="alt">
+								</div>
+								<div class="title-min">Качество услуг и сервис</div>
+							</div>
+							<p>Это основа нашей работы. Мы, как никто понимаем, что клиенту необходима способность сотрудника отнестись к проблеме, как к своей лично. Это не просто профессиональные отношения. Это забота , участие , сопереживание и поддержка. Наши клиенты не уходят от нас, они советуют нас своим родственникам, коллегам и друзьям.</p>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="item-about">
+							<div class="item-about__head">
+								<div class="icon-page">
+									<img src="img/ic_about3.png" alt="alt">
+								</div>
+								<div class="title-min">Постоянное Развитие</div>
+							</div>
+							<p>Компания активно вкладывается в обучение и повышение профессионализма своих сотрудников. Это основной фокус нашей работы.</p>
+						</div>
+						<div class="item-about">
+							<div class="item-about__head">
+								<div class="icon-page">
+									<img src="img/ic_about4.png" alt="alt">
+								</div>
+								<div class="title-min">Лидерство</div>
+							</div>
+							<p>Это наше стремление быть первыми во всем. Каждый из наших сотрудников - Лидер! А Быть лучшим не просто! Надо понимать , что не можешь подвести своего клиента.</p>
+						</div>
+						<div class="item-about">
+							<div class="item-about__head">
+								<div class="icon-page">
+									<img src="img/ic_about5.png" alt="alt">
+								</div>
+								<div class="title-min">Честность</div>
+							</div>
+							<p>Это умение встать на сторону клиента, даже в ущерб собственной выгоде. Наши опытные сотрудники полностью проверяют все необходимые документы и сообщают все риски операции.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about-services section-dark">
+			<div class="container">
+				<h2 class="title-section">Наша задача — свести к минимуму или полностью <strong>нейтрализовать негативные стороны совершения сделки</strong> с недвижимостью</h2>
+				<div class="row">
+					<div class="col-lg-5">
+						<div class="block-form">
+							<div class="title-small">Заполните форму</div>
+							<div class="descr-big">Чтобы проконсультироваться по вашему вопросу</div>
+							<form>
+								<div class="item-form">
+									<input type="text" placeholder="Имя" required="required">
+								</div>
+								<div class="item-form">
+									<input type="text" placeholder="+7 (___) ___-__-__" required="required" class="input-phone">
+								</div>
+								<button class="btn-main">получить консультацию</button>
+								<div class="checkbox-wrap">
+									<div class="checkbox">
+										<label>
+											<input type="checkbox" required="required" checked="checked" />
+											<span>Согласие на обработку персональных данных</span>
+										</label>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-7">
+						<div class="title-small">Услуги, оказываемые нашей компанией:</div>
+						<ul class="list-main">
+							<li>Риэлторские услуги при покупке недвижимости</li>
+							<li>Пакет услуг, связанных с управлением недвижимостью</li>
+							<li>Предпроектное и проектное консультирование строительно- инвестиционных проектов для жилых и бизнес площадей</li>
+							<li>Консультации по внутреннему переоборудованию, дизайну и ремонту купленной недвижимости</li>
+							<li>Риэлторские услуги при продаже недвижимости</li>
+							<li>Юридические консультации в связи с проводимыми сделками</li>
+							<li>Подготовка необходимых нотариальных актов и документов для удостоверения сделок с недвижимым имуществом</li>
+							<li>Инвестиционное консультирование</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about-advantages">
+			<div class="container">
+				<h2 class="title-section">Выбирая нас - вы выбираете <strong>уверенность в результате</strong></h2>
+				<div class="title-small">Наши преимущества:</div>
+				<div class="block-advantages">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="icon-page">
+								<img src="img/ic_avd1.png" alt="alt">
+							</div>
+							<div class="title-min">Профессионализм</div>
+							<p>К работе привлекаются только специалисты в области недвижимости, адвокаты, нотариусы, работники банков.</p>
+						</div>
+						<div class="col-lg-4">
+							<div class="icon-page">
+								<img src="img/ic_avd2.png" alt="alt">
+							</div>
+							<div class="title-min">Надежность</div>
+							<p>Работаем продуктивно и надежно. Перед продажей все объекты тщательно проверяются. Подбираем только самые лучшие и выгодные варианты</p>
+						</div>
+						<div class="col-lg-4">
+							<div class="icon-page">
+								<img src="img/ic_avd3.png" alt="alt">
+							</div>
+							<div class="title-min">Авторитет</div>
+							<p>Со многими застройщиками, инвесторами и продавцами мы сотрудничаем уже много лет.Нам доверяют продажу самых новых и лучших проектов.</p>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="btn-main">Задать вопрос</a>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__wrap"> 
+					<div class="logo-wrap">
+						<a href="#" class="logo">
+							<img src="img/logo.png" alt="alt">
+						</a>
+						<div class="logo-descr">Покупка и продажа недвижимости в Крыму</div>
+					</div>
+					<div class="location-item">
+						<i class="fas fa-map-marker-alt"></i>
+						<p>Симферополь, ул. Красная, 15</p>
+						<a href="#" class="link-simple">Показать на карте</a>
+					</div>
+					<div class="contact-item">
+						<p><strong>Работа офиса</strong></p>
+						<p>пн-пт с 9:00-18:00</p>
+					</div>
+					<div class="contact-item">
+						<p><strong>Наш E-mail:</strong></p>
+						<p><a href="mailto:an_vk63@mail.ru">an_vk63@mail.ru</a></p>
+					</div>
+					<ul class="social-links">
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+						<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+					</ul>
+					<div class="phones-item">
+						<p><a href="tel:+79788363316">+7 (978) 836-33-16</a></p>
+						<p><a href="tel:+73652541198">+7 (3652) 54-11-98</a></p>
+					</div>
+				</div>
+				<ul class="menu">
+					<li><a href="#">База объектов</a></li>
+					<li><a href="#">Продать недвижимость</a></li>
+					<li><a href="#">Услуги</a></li>
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Ипотека</a></li>
+					<li><a href="#">Условия и оплата</a></li>
+					<li><a href="#">Отзывы</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="footer__bottom">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-3 col-md-6">
+							<a href="#">Политика конфиденциальности</a>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<p>г. Симферополь © Copyright 2021 г.</p>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="create">Сделано в <img src="img/copy.svg" alt="alt"></div>
+						</div>
+						<div class="col-lg-3 col-md-6 align_right">
+							<a href="#" class="btn_top default"><i class="fa fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<div id="modal-add" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-block">Подать объявление</div>
+			<form>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="item-form">
+							<textarea required="required" placeholder="Краткое описание *"></textarea>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="item-form">
+							<div class="fl_upld">
+								<div id="fl_nm" class="name_upload"></div>
+								<label class="upload-item">
+									<input id="fl_inp" type="file" name="file">
+									<span class="title-upload">Перетяните фото прямо в это поле</span>
+									<span class="descr-upload">или <span>Выберите файлы</span></span>
+									<div class="name-upload"></div>
+								</label>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="item-form">
+							<input type="text" placeholder="ФИО собственника *" required="required">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="item-form">
+							<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="item-form">
+							<input type="email" placeholder="Email *" required="required">
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="item-form">
+							<textarea required="required" placeholder="Дополнительная информация *"></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="modal-wrap__bottom">
+					<button class="btn-main">Опубликовать</button>
+					<div class="checkbox-wrap">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" required="required" checked="checked" />
+								<span>Согласие на обработку персональных данных</span>
+							</label>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div id="modal-thanks" class="modal-block">
+		<div class="modal-wrap modal-wrap_min">
+			<div class="title-block">Спасибо за ваше сообщение</div>
+			<div class="descr-form">Оно успешно отправлено</div>
+			<div class="icon-thanks">
+				<img src="img/ic_thanks.png" alt="alt">
+			</div>
+		</div>
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.11"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

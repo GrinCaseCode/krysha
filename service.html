@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/ion.rangeSlider-master/css/ion.rangeSlider.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.11" />
+	<link rel="stylesheet" href="css/media.css?ver=1.11" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<ul class="buttons-fixed"> 
+			<li><a href="#"><i class="fas fa-heart"></i></a></li>
+			<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+			<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+			<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+		</ul>
+
+		<header class="header default">
+			<div class="container">
+				<div class="header__wrap"> 
+					<div class="logo-wrap">
+						<a href="#" class="logo">
+							<img src="img/logo.png" alt="alt">
+						</a>
+						<div class="logo-descr">Покупка и продажа недвижимости в Крыму</div>
+					</div>
+					<div class="location-item">
+						<i class="fas fa-map-marker-alt"></i>
+						<p>Симферополь, ул. Красная, 15</p>
+						<a href="#" class="link-simple">Показать на карте</a>
+					</div>
+					<div class="contact-item">
+						<p><strong>Работа офиса</strong></p>
+						<p>пн-пт с 9:00-18:00</p>
+					</div>
+					<div class="contact-item">
+						<p><strong>Наш E-mail:</strong></p>
+						<p><a href="mailto:an_vk63@mail.ru">an_vk63@mail.ru</a></p>
+					</div>
+					<a href="#modal-add" class="btn-main fancybox">Продать недвижимость</a>
+					<div class="phones-item">
+						<i class="fas fa-phone-alt"></i>
+						<p><a href="tel:+79788363316">+7 (978) 836-33-16</a></p>
+						<p><a href="tel:+73652541198">+7 (3652) 54-11-98</a></p>
+					</div>
+					<span class="btn_nav">
+						<span class='sandwich'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+					</span>
+				</div>
+				<ul class="menu">
+					<li class="menu__haschild">
+						<a href="#">База объектов</a>
+						<ul>
+							<li><a href="#">Пункт 1</a></li>
+							<li><a href="#">Пункт 2</a></li>
+							<li><a href="#">Пункт 3</a></li>
+							<li><a href="#">Пункт 4</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Продать недвижимость</a></li>
+					<li class="menu__haschild">
+						<a href="#">Услуги</a>
+						<ul>
+							<li><a href="#">Пункт 1</a></li>
+							<li><a href="#">Пункт 2</a></li>
+							<li><a href="#">Пункт 3</a></li>
+							<li><a href="#">Пункт 4</a></li>
+						</ul>
+					</li>
+					<li class="menu__haschild">
+						<a href="#">О компании</a>
+						<ul>
+							<li><a href="#">Пункт 1</a></li>
+							<li><a href="#">Пункт 2</a></li>
+							<li><a href="#">Пункт 3</a></li>
+							<li><a href="#">Пункт 4</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Ипотека</a></li>
+					<li><a href="#">Условия и оплата</a></li>
+					<li><a href="#">Отзывы</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="menu-mobile">
+				<ul class="menu">
+					<li class="menu__haschild">
+						<a href="#">База объектов</a>
+						<ul>
+							<li><a href="#">Пункт 1</a></li>
+							<li><a href="#">Пункт 2</a></li>
+							<li><a href="#">Пункт 3</a></li>
+							<li><a href="#">Пункт 4</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Продать недвижимость</a></li>
+					<li class="menu__haschild">
+						<a href="#">Услуги</a>
+						<ul>
+							<li><a href="#">Пункт 1</a></li>
+							<li><a href="#">Пункт 2</a></li>
+							<li><a href="#">Пункт 3</a></li>
+							<li><a href="#">Пункт 4</a></li>
+						</ul>
+					</li>
+					<li class="menu__haschild">
+						<a href="#">О компании</a>
+						<ul>
+							<li><a href="#">Пункт 1</a></li>
+							<li><a href="#">Пункт 2</a></li>
+							<li><a href="#">Пункт 3</a></li>
+							<li><a href="#">Пункт 4</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Ипотека</a></li>
+					<li><a href="#">Условия и оплата</a></li>
+					<li><a href="#">Отзывы</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+				<a href="#modal-add" class="btn-main fancybox">Продать недвижимость</a>
+				<div class="location-item">
+					<i class="fas fa-map-marker-alt"></i>
+					<p>Симферополь, ул. Красная, 15</p>
+					<a href="#" class="link-simple">Показать на карте</a>
+				</div>
+				<div class="contact-item">
+					<p><strong>Работа офиса</strong></p>
+					<p>пн-пт с 9:00-18:00</p>
+				</div>
+				<div class="contact-item">
+					<p><strong>Наш E-mail:</strong></p>
+					<p><a href="mailto:an_vk63@mail.ru">an_vk63@mail.ru</a></p>
+				</div>
+				<div class="phones-item">
+					<i class="fas fa-phone-alt"></i>
+					<p><a href="tel:+79788363316">+7 (978) 836-33-16</a></p>
+					<p><a href="tel:+73652541198">+7 (3652) 54-11-98</a></p>
+				</div>
+				<ul class="social-links">
+					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+					<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+				</ul>
+			</div>
+		</header>
+
+		<section class="billbord">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7">
+						<h1 class="title-big">Риэлтерские услуги <br>при <strong>продаже недвижимости</strong></h1>
+						<ul class="list-main">
+							<li>Полное сопровождение сделки </li>
+							<li>Только юридически чистые объекты </li>
+							<li>Текст для преимущества</li>
+						</ul>
+						<div class="title-consult">Проконсультируйся с риэлтором бесплатно</div>
+						<form>
+							<div class="form-line">
+								<div class="item-form">
+									<input type="text" placeholder="+7 (___) ___-__-__" required="required" class="input-phone">
+								</div>
+								<button class="btn-main">Получить консультацию <strong>бесплатно</strong></button>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" required="required" checked="checked" />
+									<span>Согласие на обработку персональных данных</span>
+								</label>
+							</div>
+						</form>
+					</div>
+					<div class="col-lg-5">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="service-page section-dark">
+			<div class="container">
+				<h2 class="title-section">Что входит в услугу продажи недвижимости?</h2>
+				<div class="row row_serv">
+					<div class="col-lg-3 col-md-6">
+						<div class="unit-service">
+							<div class="unit-service__head">
+								<div class="unit-service__number">1</div>
+								<img src="img/unit_serv1.png" alt="alt">
+							</div>
+							<p>Конъюнктурный анализ рынка недвижимости с целью формиро- вания реальной и возможной стоимости объекта</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="unit-service">
+							<div class="unit-service__head">
+								<div class="unit-service__number">2</div>
+								<img src="img/unit_serv2.png" alt="alt">
+							</div>
+							<p>Выбор маркетинговой стратегии продвижения объекта на рынке недвижимости: качественные фото, выбор интернет-площадок для размещения</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="unit-service">
+							<div class="unit-service__head">
+								<div class="unit-service__number">3</div>
+								<img src="img/unit_serv3.png" alt="alt">
+							</div>
+							<p>Прием входящих звонков от потенциальных клиентов с предо- ставлением детализированной информации по объекту</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="unit-service">
+							<div class="unit-service__head">
+								<div class="unit-service__number">4</div>
+								<img src="img/unit_serv4.png" alt="alt">
+							</div>
+							<p>Презентация объекта: видео- презентация, размещение на платных рекламных интернет- площадках и ресурсах компании</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="unit-service">
+							<div class="unit-service__head">
+								<div class="unit-service__number">5</div>
+								<img src="img/unit_serv5.png" alt="alt">
+							</div>
+							<p>Переговоры с покупателем по деталям сделки на наиболее выгодных для продавца условиях.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="unit-service">
+							<div class="unit-service__head">
+								<div class="unit-service__number">6</div>
+								<img src="img/unit_serv6.png" alt="alt">
+							</div>
+							<p>Согласование условий, сроков и стоимости сделки</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="unit-service">
+							<div class="unit-service__head">
+								<div class="unit-service__number">7</div>
+								<img src="img/unit_serv7.png" alt="alt">
+							</div>
+							<p>Подготовка документов на объект в объёме необходимом и достаточном для регистрации сделки.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="unit-service">
+							<div class="unit-service__head">
+								<div class="unit-service__number">8</div>
+								<img src="img/unit_serv8.png" alt="alt">
+							</div>
+							<p>Закрытие сделки с организа- цией всего процесса</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="consultation section-dark">
+			<div class="container">
+				<div class="consultation-form">
+					<div class="title-small">Заказать консультацию <strong>бесплатно</strong></div>
+					<form>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="item-form">
+									<input type="text" placeholder="ФИО собственника *" required="required">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="item-form">
+									<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="item-form">
+									<input type="email" placeholder="Email *" required="required">
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="item-form">
+									<textarea required="required" placeholder="Дополнительная информация *"></textarea>
+								</div>
+							</div>
+						</div>
+						<button class="btn-main">Опубликовать</button>
+						<div class="checkbox-wrap">
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" required="required" checked="checked" />
+									<span>Согласие на обработку персональных данных</span>
+								</label>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__wrap"> 
+					<div class="logo-wrap">
+						<a href="#" class="logo">
+							<img src="img/logo.png" alt="alt">
+						</a>
+						<div class="logo-descr">Покупка и продажа недвижимости в Крыму</div>
+					</div>
+					<div class="location-item">
+						<i class="fas fa-map-marker-alt"></i>
+						<p>Симферополь, ул. Красная, 15</p>
+						<a href="#" class="link-simple">Показать на карте</a>
+					</div>
+					<div class="contact-item">
+						<p><strong>Работа офиса</strong></p>
+						<p>пн-пт с 9:00-18:00</p>
+					</div>
+					<div class="contact-item">
+						<p><strong>Наш E-mail:</strong></p>
+						<p><a href="mailto:an_vk63@mail.ru">an_vk63@mail.ru</a></p>
+					</div>
+					<ul class="social-links">
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+						<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+					</ul>
+					<div class="phones-item">
+						<p><a href="tel:+79788363316">+7 (978) 836-33-16</a></p>
+						<p><a href="tel:+73652541198">+7 (3652) 54-11-98</a></p>
+					</div>
+				</div>
+				<ul class="menu">
+					<li><a href="#">База объектов</a></li>
+					<li><a href="#">Продать недвижимость</a></li>
+					<li><a href="#">Услуги</a></li>
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Ипотека</a></li>
+					<li><a href="#">Условия и оплата</a></li>
+					<li><a href="#">Отзывы</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="footer__bottom">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-3 col-md-6">
+							<a href="#">Политика конфиденциальности</a>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<p>г. Симферополь © Copyright 2021 г.</p>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="create">Сделано в <img src="img/copy.svg" alt="alt"></div>
+						</div>
+						<div class="col-lg-3 col-md-6 align_right">
+							<a href="#" class="btn_top default"><i class="fa fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<div id="modal-add" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-block">Подать объявление</div>
+			<form>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="item-form">
+							<textarea required="required" placeholder="Краткое описание *"></textarea>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="item-form">
+							<div class="fl_upld">
+								<div id="fl_nm" class="name_upload"></div>
+								<label class="upload-item">
+									<input id="fl_inp" type="file" name="file">
+									<span class="title-upload">Перетяните фото прямо в это поле</span>
+									<span class="descr-upload">или <span>Выберите файлы</span></span>
+									<div class="name-upload"></div>
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="item-form">
+							<input type="text" placeholder="ФИО собственника *" required="required">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="item-form">
+							<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="item-form">
+							<input type="email" placeholder="Email *" required="required">
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="item-form">
+							<textarea required="required" placeholder="Дополнительная информация *"></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="modal-wrap__bottom">
+					<button class="btn-main">Опубликовать</button>
+					<div class="checkbox-wrap">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" required="required" checked="checked" />
+								<span>Согласие на обработку персональных данных</span>
+							</label>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div id="modal-thanks" class="modal-block">
+		<div class="modal-wrap modal-wrap_min">
+			<div class="title-block">Спасибо за ваше сообщение</div>
+			<div class="descr-form">Оно успешно отправлено</div>
+			<div class="icon-thanks">
+				<img src="img/ic_thanks.png" alt="alt">
+			</div>
+		</div>
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.11"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
