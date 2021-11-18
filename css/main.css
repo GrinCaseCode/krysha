@@ -2947,3 +2947,8 @@ border-radius: 6px;
 color: #fcc741;
 	font-weight: 600;
 }
+.consultation-form .btn-main {
+	font-size: 18px;
+	height: 76px;
+	min-width: 312px;
+}
